@@ -13,19 +13,20 @@ public class Mutfak {
     public Mutfak() {
     }
 
-    public Mutfak(String adanakebab, String mercimek, String baklama, String soda) {
+    public Mutfak(String yemekler, String araSicak, String tatlilar, String icecekler) {
+        this.yemekler = yemekler;
+        this.araSicak = araSicak;
+        this.tatlilar = tatlilar;
+        this.icecekler = icecekler;
     }
 
     @Override
     public String toString() {
         return "Mutfak{" +
-                "\nyemekler='" + yemekler + '\'' +
-                ", \naraSicak='" + araSicak + '\'' +
-                ", \ntatlilar='" + tatlilar + '\'' +
-                ", \nicecekler='" + icecekler + '\'' +
+                "\nyemekler= " + yemekler +
+                "\naraSicak= " + araSicak +
+                "\ntatlilar= " + tatlilar +
+                "\nicecekler= " + icecekler +
                 '}';
     }
-
-
-
 }

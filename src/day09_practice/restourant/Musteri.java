@@ -6,10 +6,8 @@ public class Musteri {
 
         Mutfak menu = new Mutfak();
         System.out.println("menu.toString() = " + menu.toString());
-        System.out.println("menu = " + menu);
 
-
-        Mutfak siparisim=new Mutfak("adanakebab","mercimek","baklama","soda");
-
+        Mutfak siparisim = new Mutfak("Adana Kebab", "Mercimek Corbasi", "Baklava", "Soda");
+        System.out.println("siparisim = " + siparisim);
     }
 }
