@@ -5,7 +5,8 @@ public class BatchConstructor {
 
         Batch batch = new Batch();
 
-        System.out.println(batch);
+        System.out.println("batch.str3 = " + batch.str3);
+        batch.batch();
 
 
     }
